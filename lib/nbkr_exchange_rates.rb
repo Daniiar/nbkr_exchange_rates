@@ -2,7 +2,7 @@ require 'ox'
 require 'pry'
 require 'net/http'
 
-class Rate
+class NBKRExchangeRates
   
   URL = URI('https://www.nbkr.kg/XML/daily.xml')
   
