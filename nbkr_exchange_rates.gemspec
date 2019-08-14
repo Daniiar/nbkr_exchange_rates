@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{nbkr_exchange_rates}
-  s.version = "0.0.4"
+  s.version = "0.0.5"
   s.date = %q{2019-07-20}
   s.summary = %q{gem for working with nbkr}
   
@@ -12,6 +12,6 @@ Gem::Specification.new do |s|
   s.authors = ["Daniiar"]
   s.email = 'akhmedovdanchik@gmail.com'
 
-  s.add_development_dependency 'pry'
-  s.add_development_dependency 'ox'
+  s.add_dependency 'pry'
+  s.add_dependency 'ox'
 end
